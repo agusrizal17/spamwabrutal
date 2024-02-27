@@ -621,4 +621,4 @@ try:
    print (f"{ken} [0"+str(i+1).ljust(1)+"] \033[31m"+menu[i])
  main.main()
 except ru.ConnectionError:print (f"{ken}[{kun}•{ken}] {kun}Koneksi Error")
-except KeyboardInterrupt:print (f"{ken}[{kun}•{ken}] {kun}Program dihentikkan pakecode
+except KeyboardInterrupt:print (f"{ken}[{kun}•{ken}] {kun}Program dihentikkan pakecode")
